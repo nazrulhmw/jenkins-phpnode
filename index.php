@@ -13,7 +13,7 @@
 <div class="container">
   <h2>Inline form</h2>
   <p>Make the viewport larger than 768px wide to see that all of the form elements are inline, left aligned, and the labels are alongside.</p>
-  <form class="form-inline" action="/nazrul/index.php">
+  <form class="form-inline" method="post" action="/nazrul/index.php">
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
