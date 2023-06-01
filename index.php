@@ -11,7 +11,7 @@
 <body>
 
 <div class="container">
-  <h2>MAIN BRANCH</h2>
+  <h2>DEV BRANCH</h2>
   <p>Make the viewport larger than 768px wide to see that all of the form elements are inline, left aligned, and the labels are alongside.</p>
   <form class="form-inline" method="post" action="/nazrul/index.php">
     <div class="form-group">
