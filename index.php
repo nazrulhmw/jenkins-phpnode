@@ -13,7 +13,7 @@
 <div class="container">
   <h2>Inline form</h2>
   <p>Make the viewport larger than 768px wide to see that all of the form elements are inline, left aligned, and the labels are alongside.</p>
-  <form class="form-inline" action="/action_page.php">
+  <form class="form-inline" action="/index.php">
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -25,9 +25,18 @@
     <div class="checkbox">
       <label><input type="checkbox" name="remember"> Remember me</label>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" name="submit" class="btn btn-default">Submit</button>
   </form>
 </div>
 
 </body>
 </html>
+
+
+<?php
+
+if (isset($_POST['submit']) {
+	var_dump($_POST);die;
+}
+
+?>
